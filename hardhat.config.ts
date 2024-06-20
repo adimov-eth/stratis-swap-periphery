@@ -78,6 +78,18 @@ export default {
     optimism: {
       url: `https://optimism-mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
+    auroria: {
+      url: 'https://auroria.rpc.stratisevm.com',
+      chainId: 205205,
+      accounts: ['6365469c3657d04cfe1bfb9ee244cb12faeea4954fbd295c8e897c9f98bb0793'],
+      from: '0xA2af17Cc9077f6067E3AF42b17E1Fe3FAeee97EB',
+    },
+    sepolia: {
+      url: 'https://sepolia.infura.io/v3/2986b7c0f5354c25ae602774bc302ef0',
+      chainId: 11155111,
+      accounts: ['6365469c3657d04cfe1bfb9ee244cb12faeea4954fbd295c8e897c9f98bb0793'],
+   
+    },
   },
   etherscan: {
     // Your API key for Etherscan
